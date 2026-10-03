@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio: Calendario Semanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        
+        <section class="desktop-section">
+            <div class="header-controls">
+                <h2>22-28 de Mayo de 2026</h2>
+                <div class="btns">
+                    <button>Hoy</button>
+                    <button class="active">Semana</button>
+                    <button>Mes</button>
+                </div>
+            </div>
+
+            <div class="desktop-calendar">
+                <div class="calendar-header">
+                    <div class="time-col"></div>
+                    <div>Lun 22</div>
+                    <div class="active-day">Mar 23</div>
+                    <div>Mié 24</div>
+                    <div>Jue 25</div>
+                    <div>Vie 26</div>
+                    <div>Sáb 27</div>
+                    <div>Dom 28</div>
+                </div>
+                
+                <div class="calendar-body">
+                    <div class="hour-row">
+                        <div class="time-label">09:00</div>
+                        <div class="slot"><div class="event green">Cumpleaños de Sayuri</div></div>
+                        <div class="slot"><div class="event purple">Proyecto Integrador</div></div>
+                        <div class="slot"></div>
+                        <div class="slot"><div class="event purple">Tarea Web Avanzado</div></div>
+                        <div class="slot"></div>
+                        <div class="slot"></div>
+                        <div class="slot"></div>
+                    </div>
+                    <div class="hour-row">
+                        <div class="time-label">10:00</div>
+                        <div class="slot"></div>
+                        <div class="slot"><div class="event blue">Clases Virtuales</div></div>
+                        <div class="slot"><div class="event purple">Reunión Uni</div></div>
+                        <div class="slot"></div>
+                        <div class="slot"><div class="event purple">Cumpleaños Fabian</div></div>
+                        <div class="slot"></div>
+                        <div class="slot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mobile-section">
+            
+            <div class="mobile-frame">
+                <header class="mobile-header">
+                    <span>☰</span>
+                    <h3>Calendario</h3>
+                    <span></span>
+                </header>
+                <div class="month-selector">Mayo 2026</div>
+                <div class="calendar-days-grid">
+                    <div class="day-label">Lun</div><div class="day-label">Mar</div><div class="day-label">Mier</div><div class="day-label">Juev</div><div class="day-label">Vier</div><div class="day-label">Sab</div><div class="day-label">Dom</div>
+                    <span></span><span></span><span></span><span></span><span></span><div class="day-n">01</div><div class="day-n">02</div>
+                    <div class="day-n">03</div><div class="day-n">04</div><div class="day-n selected">05</div><div class="day-n">06</div><div class="day-n">07</div><div class="day-n">08</div><div class="day-n">09</div>
+                    <div class="day-n">10</div><div class="day-n">11</div><div class="day-n">12</div><div class="day-n">13</div><div class="day-n">14</div><div class="day-n selected-alt">15</div><div class="day-n">16</div>
+                    <div class="day-n">17</div><div class="day-n">18</div><div class="day-n">19</div><div class="day-n">20</div><div class="day-n">21</div><div class="day-n">22</div><div class="day-n">23</div>
+                </div>
+                <div class="month-selector alt">Junio 2026</div>
+                <button class="fab">+</button>
+            </div>
+
+            <div class="mobile-frame">
+                <header class="mobile-header">
+                    <span>←</span>
+                    <h3>Calendario</h3>
+                    <span></span>
+                </header>
+                <div class="timeline">
+                    <div class="event-item">
+                        <div class="day-circle">05</div>
+                        <div class="event-card">
+                            <span class="event-time">18:00 - 21:00 PM</span>
+                            <p>Fiesta de Kate</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="day-circle active">10</div>
+                        <div class="event-card">
+                            <span class="event-time">09:00 - 10:00 AM</span>
+                            <p>Reunión con el Jefe</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="day-circle">15</div>
+                        <div class="event-card">
+                            <span class="event-time">14:00 - 16:00 PM</span>
+                            <p>Conferencia</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="fab">+</button>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+</html>
